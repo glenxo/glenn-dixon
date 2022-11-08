@@ -27,11 +27,16 @@ div {
 }
 
 h1 {
-    margin-left: 400px;
-    margin-right: auto
+float: unset;
 }
+
+.aside {
+    
+}
+
 aside {
     float: right;
+    pos
     
 }
 
