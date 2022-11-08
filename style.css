@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: -1;
+    font-family: @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+        
+}
+
+img .hero {
+    border-radius: 1%;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: blanchedalmond;
+    }
+
+.hero {
+    position: absolute;;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    padding: 5%;
+
+}    
+
+    .flex-container {
+        display: flex;
+    }
+
+      /* this selector selects all divs inside of .flex-container */
+    .flex-container div {
+        font-size: 150px;
+        margin: 5%;
+        background: rgba(252, 191, 138, 0);
+        border: 4px solid rgba(206, 79, 29, 0.144);
+        align-items: center;
+        height: 1000px;
+        flex: 2 1 2%;
+        z-index: -1;
+    }
+
+    .flex-container .one {
+        font-size: 40px;
+        color: aqua;
+    }
+
+
+    .flex-container .two {
+        background-image: url(/media/20220116_142307.jpg);
+        color: rgb(95, 18, 167);
+        flex: 2 1 0%;
+
+    }
+
+    .flex-container .three {
+        color: blueviolet;
+        flex: 2 1 0%;
+
+    }
+
+
