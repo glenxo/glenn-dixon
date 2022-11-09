@@ -11,6 +11,11 @@
   --white: #fff;
 }
 
+body {
+  min-height: 150vh;
+  background: #f8ede9;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -22,7 +27,12 @@ header {
   align-items: center;
   background: var(--white);
   z-index: 1000;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.027);
+  transition: 0.5s;
+}
+
+header.sticky {
+  padding: 10px 100px;
 }
 
 .logo {
@@ -35,4 +45,51 @@ header {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.menuToggle {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: url(/media/menu.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.menuToggle.active {
+  background: url(/media/close.png);
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
