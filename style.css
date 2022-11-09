@@ -1,105 +1,38 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 * {
     margin: 0;
     padding: 0;
-    
-    box-sizing: border-box;
-    font-family: @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
-    
-}
-
-
-body {
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(248, 248, 248);
-    font-size: 300%;    
-
+    box-sizing: border-box;
 }
 
-.hero {
-    background-color: rgba(255, 166, 0, 0.13);
-    background-image: url(/media/pexels-roberto-nickson-2559941.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
-    padding-top: 450px;
-    padding-bottom: 450px;
-
-    
+:root {
+  --black: #333;
+  --white: #fff;
 }
 
-
-
-
-.flex-container {
-     display: flex;
-     
-  }
-
-  .even-columns > * {
-    flex-basis: 100%;
-  }
-  
-  /* this selector selects all divs inside of .flex-container */
-  .flex-container div {
-    background: rgba(255, 185, 185, 0);
-    border: 4px solid rgba(187, 153, 153, 0.315);
-    height: 400px;
-    flex: 1; 
-  }
-
-  .container {
-    color: aquamarine;
-    object-position: center;
-    
-    
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--white);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.116);
 }
 
-  .card__image {
-    background-image: url(/media/clipart4644916.png);
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-
-  }
-
-  .two {
-    margin: 0;
-    padding: 0;
-    color: rgb(255, 187, 0);
-
-    
-  }
-
-  .three {
-
-  }
-
-  .four {
-
-  }
-
-  .five {
-
-  }
-
-  .six {
-
-  }
-
-  .seven {
-
-  }
-
-  .eigth {
-    background: peachpuff;
-    border: 4px solid brown;
-    height: 100px;
-  }
-
-.lorem {
-color: blueviolet;
-
+.logo {
+  position: relative;
+  display: inline-block;
+  color: var(--black);
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
- .img {
-color: blue;
 
- }
