@@ -135,6 +135,22 @@ section {
   flex-direction: column;
 }
 
+.banner .contentBx h2 {
+  font-size: 2em;
+  font-weight: 500;
+  color: var(--black);
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner .contentBx h4 {
+  font-size: 1.2em;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 
 
