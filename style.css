@@ -75,7 +75,7 @@ header.sticky {
   align-items: center;
   flex-direction: column;
   z-index: 999;
-  transition: 0.25s;
+  transition: 0.35s;
   opacity: 0;
   visibility: hidden;
 }
@@ -117,6 +117,23 @@ section {
   object-fit: cover;
 }
 
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .contentBx {
+  position: relative;
+  z-index: 1;
+  background: var(--white);
+  border-radius: 2%;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 
 
