@@ -167,6 +167,9 @@ section {
   transition: 0.25s;
 }
 
+.btn:hover {
+  color: var(--white);
+  background: var(--black );
 }
 
 
