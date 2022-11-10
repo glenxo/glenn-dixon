@@ -74,10 +74,15 @@ header.sticky {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 1000;
+  z-index: 999;
   transition: 0.25s;
   opacity: 0;
   visibility: hidden;
+}
+
+.navigation.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .navigation li {
@@ -95,7 +100,22 @@ header.sticky {
   text-transform: uppercase;
 }
 
+section {
+  position: relative;
+  padding: 100px;
+  width: 100%;
+  min-height: 100vh;
+  background: var(--white);
+}
 
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 
 
