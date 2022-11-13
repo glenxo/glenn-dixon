@@ -235,7 +235,9 @@ p {
   min-height: 400px;
 }
 
-
+.post {
+  position: relative;
+}
 
 
 
