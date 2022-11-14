@@ -371,22 +371,35 @@ p {
 }
 
 
-#footer {
-  position: fixed;
-  height: 50px;
-  background-color: red;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
+footer {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f8f8f8;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+footer .footerMenu {
+  display: flex;
 }
 
 
-body {
-  margin-bottom:50px;
+footer .footerMenu li {
+  list-style: none;
 }
 
+footer .footerMenu li a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 20px;
+  color: var(--black);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
-
-
-
+.copyrightText {
+  color: var(--black);
+  text-align: center;
+}
