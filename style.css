@@ -402,4 +402,5 @@ footer .footerMenu li a {
 .copyrightText {
   color: var(--black);
   text-align: center;
+  letter-spacing: 1px;
 }
