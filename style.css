@@ -335,10 +335,40 @@ p {
   margin-top: 20px;
 }
 
+.contact .contactForm .row input,
+.contact .contactForm .row2 textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--black);
+  outline: none;
+  background: var(--white);
+  color: var(--black);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
+.contact .contactForm .row2 textarea {
+  resize: none;
+  height: 200px;
+}
 
+::placeholder  {
+  color: var(--black);
+}
 
+.contact .contactForm .row2 input[type="submit"] {
+  background: var(--white);
+  color: var(--black);
+  border: 2px solid var(--black);
+  cursor: pointer;
+}
 
+.contact .contactForm .row2 input[type="submit"]:hover {
+  background: var(--black);
+  color: var(--white);
+}
 
 
 
