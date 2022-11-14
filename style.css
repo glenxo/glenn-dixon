@@ -4,6 +4,7 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -403,4 +404,67 @@ footer .footerMenu li a {
   color: var(--black);
   text-align: center;
   letter-spacing: 1px;
+}
+
+/*screen size settings(responsiveness)*/
+
+@media  (max-width: 991px) {
+
+  header {
+    padding: 20px 20px;
+  }
+
+  header.sticky {
+    padding: 10px 20px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .banner .contentBx {
+    padding: 40px 30px;
+  }
+
+  .about .contentBx {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .post .contentBx {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .post .contentBx .postColumn .postBox,
+  .post .contentBx .postColumn .postBox.extraHeight {
+    height: 300px;
+  } 
+  .contact .contactForm .row {
+    grid-template-columns: (1,1fr);
+  }
+
+footer {
+  padding: 40px 20px;
+}
+
+
+footer .footerMenu {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 20px;
+}
+
+footer .footerMenu li a {
+  margin: 5px 0;
+}
+
+.title {
+  padding-top: 50px;
+}
+
+.mtg60 {
+  margin-top: 0;
+}
+
 }
