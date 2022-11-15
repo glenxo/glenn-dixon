@@ -50,7 +50,7 @@ header.sticky {
   position: relative;
   width: 30px;
   height: 30px;
-  background: url(/media/menu.png);
+  background: url(https://cdn-icons-png.flaticon.com/512/545/545705.png);
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +58,7 @@ header.sticky {
 }
 
 .menuToggle.active {
-  background: url(/media/close.png);
+  background: url(https://cdn-icons-png.flaticon.com/512/61/61155.png);
   background-size: 35px;
   background-repeat: no-repeat;
   background-position: center;
